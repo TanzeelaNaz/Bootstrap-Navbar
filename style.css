@@ -1,0 +1,9 @@
+.navbar img {
+    padding:0 3px;
+
+}
+
+
+.nav-item a:hover {
+    color:black;
+}

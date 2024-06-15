@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootstrap Navbar</title>
+
+
+  <!-- cdn link of bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- link of css -->
+  <link rel="stylesheet" href="style.css" type="text/css" />
+
+  <!-- cdn link of font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- cdn link of flaticon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css"
+    integrity="sha512-6f7HT84a/AplPkpSRSKWqbseRTG4aRrhadjZezYQ0oVk/B+nm/US5KzQkyyOyh0Mn9cyDdChRdS9qaxJRHayww=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-danger ">
+    <div class="container ">
+      <a class="navbar-brand py-1 mb-3 " href="#">
+        <img src="asset/shoe bata.png" width="60px" /><img src="asset/bata-text.png" width="115px" />
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mx-auto"  >
+          <li class="nav-item ">
+            <a class="nav-link active text-white" href="#home" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#about">About</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white dropdown-toggle" href="#product" role="button" data-bs-toggle="dropdown">
+              Product
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-dark" href="#">Shop Now</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <span class="navbar navbar-icon my-auto">
+          <img src="asset/facebook.png" width="30px" />
+          <img src="asset/twitter.png" width="30px" />
+          <img src="asset/instagram.png" width="30px" />
+          <img src="asset/linkedin.png" width="30px" />
+        </span>
+      </div>
+
+
+
+    </div>
+  </nav>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
